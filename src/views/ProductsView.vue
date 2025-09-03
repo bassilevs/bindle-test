@@ -75,6 +75,7 @@ const handleAddToCart = (product: Product) => {
 const totalProducts = computed(() => productsQuery.data?.value?.total || 0);
 </script>
 
+
 <template>
   <div class="p-4">
     <div class="mb-8">
