@@ -4,5 +4,5 @@ export interface Product {
   price: number
   author: string
   category: string
-  image: string
+  thumbnail: string
 }
